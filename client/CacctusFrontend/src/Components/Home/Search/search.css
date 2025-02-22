@@ -1,0 +1,122 @@
+.search-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    background-color: #1A1A19;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    max-width: 1366px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.search > h1{
+    margin-top: 50px;
+    color: #FFFFFF;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.input-container{
+    background-color: #F6FCDF;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.search-input{
+    background-color: #F6FCDF;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    width: 100%;
+    height: 35px;
+    padding: 5px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.input-container > p{
+    margin: 0px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.search-input:focus-visible{
+    border: none;
+    outline: none;
+}
+
+.search > h3{
+    color: #FFFFFF;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+}
+
+.card-beat{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-radius: 10px;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card-beat:hover{
+    background-color: #3E3E3E;
+}
+
+.img-card{
+    width: 170px;
+    border-radius: 10px;
+    height: auto;
+    cursor: pointer;
+}
+
+.info-card-container{
+    max-width: 170px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info-card-container > p , h3{
+    margin: 0px;
+    color: #FFFFFF;
+}
+
+.add-cart-beat{
+    background-color: transparent;
+    border: 1px solid #F6FCDF;
+    border-radius: 10px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-family: Roboto;
+    height: 35px;
+    max-width: 170px;
+    width: 100%;
+    cursor: pointer;
+}
