@@ -1,7 +1,109 @@
 .popular-container {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6FCDF;
 }
 
 .popular {
+    width: 100%;
     max-width: 1366px;
+    padding: 50px;
+}
+
+.popular-gender-title, .popular-artist-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-popular {
+    height: 50%;
+    position: relative;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1em 2.5em;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 6em;
+    transition: all 0.2s;
+    border: none;
+    font-family: inherit;
+    font-weight: 500;
+    color: white;
+    background-color: var(--color-background-negro);
+}
+.button-popular:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px var(--color-verde-oscuro);
+}
+
+.button-popular:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.button-popular::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+}
+.button-popular::after {
+    background-color: var(--beige);
+
+}
+.button-popular:hover::after {
+    transform: scaleX(1.4) scaleY(1.1);
+    opacity: 0;
+}
+
+
+/*CARD POPULAR*/ 
+.image-popular-container {
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+.image-popular-container:hover {
+    background-color: #3e3e3e62;
+    transition: 0.3s ease;
+}
+
+.hr hr{
+    color: white !important;
+    border: 0.5px solid var(--color-verde-oscuro);
+    width: 70%;
+}
+
+
+.image-popular-container img{
+    padding: 15px 15px 0px 15px;
+    object-fit: cover;
+}
+
+.image-popular-container p {
+    padding-left: 15px;
+    font-size: 1.2rem;
+}
+
+.cards-popular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
 }

@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="header-container">
       <div className="header">
-        <div>
+        <div className="info-header-container">
           <h1>
             Accede a la mejor plataforma de compra y venta de beats digitales
           </h1>
@@ -19,7 +19,7 @@ const Header = () => {
             Regístrate gratis
           </button>
         </div>
-        <div>
+        <div className="image-container-header">
           <img src={ImgHeader} alt="" className="img-header" />
         </div>
       </div>
