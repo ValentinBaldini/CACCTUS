@@ -59,3 +59,12 @@
     background-color: #263f18;
     cursor: pointer;
 }
+
+.image-container-header img {
+    object-fit: cover;
+    padding: 50px;
+}
+
+.info-header-container {
+    padding: 50px;
+}
