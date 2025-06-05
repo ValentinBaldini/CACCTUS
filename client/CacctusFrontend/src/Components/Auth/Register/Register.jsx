@@ -71,6 +71,7 @@ const Register = () => {
 
               <button className="button-register" type="submit">
                 Registrarse
+                <span class="material-icons">login</span>
               </button>
             </div>
           </form>

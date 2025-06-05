@@ -1,14 +1,14 @@
-.header-login{
-    width: 100%;
-    text-align: center;
+.header-login {
+  width: 100%;
+  text-align: center;
 }
 
-.inputs-login{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 30px;
-    margin-top: 20px;
+.inputs-login {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 30px;
+  margin-top: 20px;
 }
 
 .login-full-container {
@@ -119,37 +119,48 @@
   outline: none;
   cursor: pointer;
   transition: all 200ms ease;
-  box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.15);
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
 }
 
 .button-login:hover {
   background-color: #274119;
 }
 
-.register-footer-text{
-    font-weight: 700;
+.register-footer-text {
+  font-weight: 700;
 }
 
-.register-footer-text > a{
-    color: var(--color-verde-oscuro);
-    cursor: pointer;
+.register-footer-text > a {
+  color: var(--color-verde-oscuro);
+  cursor: pointer;
 }
 
-.cacctus-footer-login{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-    justify-content: center;
+.register-footer-text > a:hover {
+  color: #274119;
+  cursor: pointer;
 }
 
-.cacctus-footer-login > img{
-    width: 50px;
-    height: 50px;
+.cacctus-footer-login {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
 }
 
-.cacctus-footer-login > h1{
-   color: var(--beige);
+.cacctus-footer-login > img {
+  width: 50px;
+  height: 50px;
 }
 
+.cacctus-footer-login > h1 {
+  color: var(--beige);
+  margin: 0px;
+}

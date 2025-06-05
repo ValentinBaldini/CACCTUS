@@ -3,7 +3,6 @@ import LogoCacctus from "../../../assets/cactus_10489609 1.png";
 import { useNavigate } from "react-router-dom";
 
 const Login = () => {
-
   const navigate = useNavigate();
 
   const validateLogin = (e) => {
@@ -41,13 +40,15 @@ const Login = () => {
 
               <button className="button-login" type="submit">
                 Iniciar sesión
+                <span class="material-icons">login</span>
               </button>
             </div>
           </form>
           <hr />
           <div className="footer-login">
             <p className="register-footer-text">
-              No tienes cuenta?, <a onClick={() => navigate("/register")}>Regístrate</a>
+              No tienes cuenta?,{" "}
+              <a onClick={() => navigate("/register")}>Regístrate</a>
             </p>
           </div>
         </div>
