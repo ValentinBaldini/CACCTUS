@@ -1,17 +1,13 @@
-import './App.css'
-import Navbar from './Components/Navbar/Navbar'
-import Header from './Components/Home/Header/Header'
-import Search from './Components/Home/Search/Search'
+import "./App.css";
+
+import AppRoutes from "./Routes/AppRoutes";
 
 function App() {
-
   return (
     <>
-      <Navbar />
-      <Header />
-      <Search />
+      <AppRoutes />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

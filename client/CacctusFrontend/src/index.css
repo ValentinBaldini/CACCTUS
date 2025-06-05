@@ -1,7 +1,11 @@
-#root{
+#root {
   font-family: Roboto;
+  --color-background-negro: #1a1a19;
+  --color-verde-oscuro: #31511e;
+  --color-verde-claro: #859f3d;
+  --beige: #f6fcdf;
 }
 
-body{
+body {
   margin: 0px;
 }
