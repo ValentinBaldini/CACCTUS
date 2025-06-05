@@ -1,0 +1,177 @@
+.register-container {
+  max-width: 1366px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.register-auth {
+  max-width: 620px;
+  height: fit-content;
+  width: 100%;
+  height: 100%;
+  background-color: #f6fcdf;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.header-register {
+  width: 100%;
+  text-align: center;
+}
+
+.inputs-register {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.register-full-container {
+  width: 100%;
+  background-color: #1a1a19;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.register-auth hr {
+  width: 100%;
+}
+
+.register-auth > form {
+  width: 100%;
+  height: 100%;
+}
+
+.register-auth > form > .body-register {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.input-register-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: var(--color-background-negro);
+}
+
+.input-register-container .material-icons {
+  margin-right: 8px;
+  color: var(--beige);
+}
+
+.input-email-register {
+  background-color: #1a1a19;
+  color: var(--beige);
+  padding: 10px;
+  height: 25px;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.input-pass-register {
+  background-color: #1a1a19;
+  color: var(--beige);
+  padding: 10px;
+  height: 25px;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.input-date-register {
+  background-color: #1a1a19;
+  color: var(--beige);
+  padding: 10px;
+  height: 25px;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-family: inherit;
+}
+
+.input-date-register::-webkit-calendar-picker-indicator {
+  filter: invert(1); /* Invierte el color, puedes ajustar según tu fondo */
+  /* También puedes usar opacity o sepia para otros efectos */
+}
+
+.input-email-register::placeholder {
+  color: #f6fcdfaf;
+}
+
+.input-pass-register::placeholder {
+  color: #f6fcdfaf;
+}
+
+.button-register {
+  background-color: var(--color-verde-oscuro);
+  color: var(--beige);
+  height: 54px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 200ms ease;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.button-register:hover {
+  background-color: #274119;
+}
+
+.register-footer-text {
+  font-weight: 700;
+}
+
+.register-footer-text > a {
+  color: var(--color-verde-oscuro);
+  cursor: pointer;
+}
+
+.cacctus-footer-register {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.cacctus-footer-register > img {
+  width: 50px;
+  height: 50px;
+}
+
+.cacctus-footer-register > h1 {
+  color: var(--beige);
+}
+
+.inputs-register .input-register-container:last-child{
+    margin-bottom: 20px;
+}
