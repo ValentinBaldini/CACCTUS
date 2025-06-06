@@ -4,6 +4,7 @@ import Navbar from "../Navbar/Navbar";
 import Popular from "./Popular/Popular";
 import Meet from "./meetTheArtist/Meet";
 import About from "./aboutCacctus/About";
+import License from "./license/License";
 
 const Home = () => {
   return (
@@ -14,8 +15,7 @@ const Home = () => {
       <Popular/>
       <Meet />
       <About />
-      <Meet />
-
+      <License />
     </>
   );
 };

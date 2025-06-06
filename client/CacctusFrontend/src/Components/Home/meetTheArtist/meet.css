@@ -1,6 +1,8 @@
 .meet-container {
     width: 100%;
     background-color: var(--color-background-negro);
+    display: flex;
+    justify-content: center;
 }
 
 .meet {
