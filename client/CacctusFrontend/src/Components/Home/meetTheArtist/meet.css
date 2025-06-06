@@ -1,0 +1,45 @@
+.meet-container {
+    width: 100%;
+    background-color: var(--color-background-negro);
+}
+
+.meet {
+    max-width: 1366px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    padding: 100px;
+    gap: 200px;
+}
+
+.meet-image {
+    padding: 10px;
+}
+.meet-image img {
+    width: 543px;
+}
+
+.meet-info {
+    color: white;
+    padding: 50px;
+    width: 500px;
+}
+
+.meet-info h2 {
+    margin: auto;
+    font-size: 32px;
+}
+
+.meet-info p {
+    margin: auto;
+    padding: 5px;
+    padding-bottom: 30px;
+}
+
+
+.meet-info button {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    width: 100px;
+}
