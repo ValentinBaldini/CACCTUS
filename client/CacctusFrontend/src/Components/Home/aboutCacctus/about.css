@@ -1,0 +1,51 @@
+.about-container {
+    width: 100%;
+    background-color: #F6FCDF;
+    position: relative;
+    overflow: hidden;
+}
+
+.about {
+    max-width: 1366px;
+    z-index: 2;
+    padding: 2rem 2rem;
+    max-width: 800px;
+}
+
+.about-info{
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    text-align: start;
+}
+
+.about-info h2 {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.about-info p {
+    margin-top: 0;
+    width: 450px;
+}
+
+/*PARALLAX*/
+.about-parallax {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 200vh;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.about-parallax img{
+    position: relative;
+    width: auto;
+    height: auto;
+    max-height: 150vh;
+    object-fit: contain;
+    transition: transform 0.1s ease-out;
+    padding-top: 450px;
+}
